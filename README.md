@@ -18,6 +18,12 @@ Step 4. IntiLiaze thhe program.
 
 ## Program:
 ```
+Program to implement the linear regression using gradient descent.
+Developed by: Hemadharshini M
+RegisterNumber:212222040053
+```
+
+```
 import numpy as np
 import pandas as pd
 from sklearn.preprocessing import StandardScaler
@@ -68,7 +74,21 @@ print(f"Predicted value: {pre}")
 ```
 
 ## Output:
-![linear regression using gradient descent](sam.png)
+DATA.HEAD()
+
+![3a](https://github.com/user-attachments/assets/f63b5b93-83d6-4208-8c50-3aeb49ef01bb)
+
+X VALUE  
+
+![3b](https://github.com/user-attachments/assets/98e18c04-ec7c-4ae5-8c78-f4e136d171ba)
+
+X1_SCALED VALUE 
+
+![3c](https://github.com/user-attachments/assets/248b31e6-f769-4836-9e7d-17faf135e5ba)
+
+PREDICTED VALUES:
+
+![3d](https://github.com/user-attachments/assets/7d658aa7-497a-4cbd-b3eb-58691840bb1b)
 
 
 ## Result:
