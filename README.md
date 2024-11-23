@@ -8,13 +8,15 @@ To write a program to predict the profit of a city using the linear regression m
 2. Anaconda – Python 3.7 Installation / Jupyter notebook
 
 ## Algorithm
-Step 1. Start
+Step 1. The goal is to find the best-fitting line by minimizing the difference between predicted and actual values through an iterative process.
 
-Step 2. Import numpy as np
+Step 2. Start with random initial values for the model's parameters (weights) and choose a learning rate that controls how much the parameters are adjusted during each step.
 
-Step 3. Plot the points
+Step 3. Use the current values of the parameters to calculate predictions for each data point in the training set.
 
-Step 4. IntiLiaze thhe program.
+Step 4. Measure how far off the predictions are from the actual values using a cost function, typically Mean Squared Error (MSE), to evaluate the model’s performance.
+
+Step 5. Adjust the parameters by calculating how much each parameter affects the cost and iteratively update them to minimize the error. Repeat this process until the model converges and the cost stops improving.
 
 ## Program:
 ```
